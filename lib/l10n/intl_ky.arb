@@ -1,0 +1,21 @@
+{
+  "@@locale": "ky",
+  "creditCardErrorText": "Талаанын мааниси кредиттик картанын номери болушу керек.",
+  "dateStringErrorText": "Талаа дата болушу керек.",
+  "emailErrorText": "Талаа электрондук почта дареги болушу керек.",
+  "equalErrorText": "Талаанын мааниси {value} менен барабар болушу керек.",
+  "equalLengthErrorText": "Маани узундугу {length} барабар болушу керек",
+  "integerErrorText": "Талаа бүтүн сан болушу керек.",
+  "ipErrorText": "Талаа IP номери болушу керек.",
+  "matchErrorText": "Маани үлгүгө дал келиши керек.",
+  "maxErrorText": "Маани {max}дан кичине же барабар болушу керек.",
+  "maxLengthErrorText": "Маанинин узундугу {maxLength}ден кичине же ага барабар болушу керек.",
+  "maxWordsCountErrorText": "Мааниде {maxWordsCount} аз же барабар сөздөр болушу керек",
+  "minErrorText": "Маани {min} чоңураак же ага барабар болушу керек.",
+  "minLengthErrorText": "Маанинин узундугу {minLength} чоңураак же ага барабар болушу керек.",
+  "minWordsCountErrorText": "Мааниде {minWordsCount} өлчөмүнөн чоң же ага барабар сөздөр болушу керек",
+  "notEqualErrorText": "Талаанын мааниси {value} менен барабар болбошу керек.",
+  "numericErrorText": "Мааниси сан болушу керек.",
+  "requiredErrorText": "Талаа бош болушу мүмкүн эмес.",
+  "urlErrorText": "Талаа URL болушу керек."
+}

@@ -23,6 +23,7 @@ import 'messages_id.dart';
 import 'messages_it.dart';
 import 'messages_ja.dart';
 import 'messages_ko.dart';
+import 'messages_ky.dart';
 import 'messages_lo.dart';
 import 'messages_mn.dart';
 import 'messages_ms.dart';
@@ -144,6 +145,7 @@ abstract class FormBuilderLocalizationsImpl {
     Locale('it'),
     Locale('ja'),
     Locale('ko'),
+    Locale('ky'),
     Locale('lo'),
     Locale('mn'),
     Locale('ms'),
@@ -235,7 +237,7 @@ abstract class FormBuilderLocalizationsImpl {
   /// No description provided for @minErrorText.
   ///
   /// In en, this message translates to:
-  /// **'Value must be greater than or equal to {min}.'**
+  /// **'Value must be greater than or equal to {min}'**
   String minErrorText(Object min);
 
   /// No description provided for @minLengthErrorText.
@@ -284,7 +286,7 @@ class _FormBuilderLocalizationsImplDelegate extends LocalizationsDelegate<FormBu
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['sq', 'ar', 'bn', 'bs', 'ca', 'cs', 'de', 'el', 'en', 'es', 'et', 'fa', 'fr', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lo', 'mn', 'ms', 'ne', 'nl', 'pl', 'pt', 'ro', 'ru', 'se', 'sk', 'sl', 'sw', 'ta', 'th', 'tr', 'uk', 'vi', 'zh'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['sq', 'ar', 'bn', 'bs', 'ca', 'cs', 'de', 'el', 'en', 'es', 'et', 'fa', 'fr', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'ky', 'lo', 'mn', 'ms', 'ne', 'nl', 'pl', 'pt', 'ro', 'ru', 'se', 'sk', 'sl', 'sw', 'ta', 'th', 'tr', 'uk', 'vi', 'zh'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_FormBuilderLocalizationsImplDelegate old) => false;
@@ -323,6 +325,7 @@ FormBuilderLocalizationsImpl lookupFormBuilderLocalizationsImpl(Locale locale) {
     case 'it': return FormBuilderLocalizationsImplIt();
     case 'ja': return FormBuilderLocalizationsImplJa();
     case 'ko': return FormBuilderLocalizationsImplKo();
+    case 'ky': return FormBuilderLocalizationsImplKy();
     case 'lo': return FormBuilderLocalizationsImplLo();
     case 'mn': return FormBuilderLocalizationsImplMn();
     case 'ms': return FormBuilderLocalizationsImplMs();
